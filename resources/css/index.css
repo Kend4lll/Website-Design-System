@@ -1,0 +1,257 @@
+/* Universal Style */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: black;
+    background: linear-gradient(#e66465, #9198e5);
+    display: block;
+}
+
+
+
+/* header */
+header{
+    width: 100%;
+    border-bottom: 2px black solid;
+    position: fixed;
+    z-index: 10;
+    background: linear-gradient(55deg, #9d9d9d, #1F2833);
+    padding: 10px 25px 10px;
+    line-height: normal;
+}
+
+.welcome{
+    display: inline-block;
+    padding-top: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+/* Nav */
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu li{
+    float: left;   
+    cursor: pointer;
+    width: 120px;
+    list-style-type: none;
+    padding: 20px;
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+/* Clickability */
+.menu li:hover{
+    font-size: 20px;
+    font-weight: bold;
+    transition: font-size 1s, font-weight 1s;
+}
+
+
+
+
+
+main{
+    display: flex;
+    /* position: relative; */
+    /* top: 0; */
+}
+
+/* allows three images to float next to each other */
+img{
+    max-width: 33.33%;
+    margin-top: 80px;
+    height: 300px;
+}
+  
+/* center text */
+#banner{
+    color: #ffffff;
+    text-transform: uppercase;
+    height: 300px;
+    padding: 100px 10px;
+    margin-top: 80px;
+    width: 33.33%;
+    overflow: scroll;
+    text-align: center;
+    background: url(../img/paper-colorful-color-loose-40799.webp) no-repeat center;
+    background-size: cover;
+}
+
+h2{
+    height: 500px;
+}
+
+h3, p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    
+}
+
+
+/* box for each color */
+.color-box{
+    width: 360px;
+    margin-right: 40px;
+    display: inline-block; 
+    margin-top: 10px;
+}
+
+#royal-purple{
+    background-color: #561D5E;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+#gun-metal{
+    background-color: #565D61;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+#sunlight-yellow{
+    background-color: #FFFB02;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+#neon-blue{
+    background-color: #1A67CB;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+#peach{
+    background-color: #FFE5B4;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+#sage{
+    background-color: #8A9A5B;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+#caramel{
+    background-color: #C19A6B;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+#cream{
+    background-color: #FFFDD0;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+#carmine{
+    background-color: #D70040;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+
+/* CSS for Font section */
+table{
+    height: 25px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+td{
+    border-bottom: 1px solid black;
+    font-family: Oswald;
+    padding: 25px;
+}
+.lato-font{
+    font-family: 'Lato', sans-serif;
+}
+.poppins-font{
+    font-family: 'Poppins', sans-serif;
+}
+.playfair-font{
+    font-family: 'Playfair Display', serif;
+}
+.pt-font{
+    font-family: 'PT Serif', serif;
+}
+
+
+.left{
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    margin-left: 20px;
+}
+.mid{
+    margin: 5px;
+    padding: 5px;
+    padding-left: 35%;
+    text-align: left;
+}
+.right{
+    margin: 5px;
+    padding: 5px;
+    padding-left: 70%;
+    text-align: left;
+}
+#h1{
+    font-weight: 800;
+    font-size: 70px;
+    text-align: left;
+    margin: 20px 5px 10px 15px;
+    line-height: 85px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#subheading{
+    font-weight: 600;
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+    height: fit-content;
+}
+
+#video{
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    text-align: right;
+    margin-right: 100px;
+}
+
+#para{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+#list{
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    margin-left: 20px;
+}
